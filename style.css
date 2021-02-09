@@ -1,0 +1,26 @@
+body {
+	background-color: lightblue;
+	font-family: "courier";
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+.navigator {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	right: 0px;
+}
+.navitem {
+	background-color: transparent;
+	border: none;
+	font-size: 18px;
+	outline: none;
+}
+.navitem:hover {
+	text-decoration: underline;
+}
+a.navlink {
+	all: inherit;
+}
